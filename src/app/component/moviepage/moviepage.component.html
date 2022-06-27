@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <ng-container *ngFor="let val of list">
+              <div class="col-3  ms-5 mt-2">
+                <div class="card">
+                  <img src="{{val.Poster}}" class="card-img-top" alt="..." >
+                  <div class="card-body">
+                    <h5 class="card-title text-light">{{val.Title}}</h5>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+            
+          </div>
+    </div>
+  </div>

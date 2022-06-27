@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div><h1 class="text-center text-light">Download ShowTime Movie:HD smallest size</h1></div>
+    <div>
+        <h6  class="text-center text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ut?</h6>
+    </div>
+    <div>
+        <h6 class="text-center text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, exercitationem.</h6>
+    </div>
+    <div class="mt-5 text-primary text-center"><h4>This is only offical domain</h4></div>
+    <div class=" line border-bottom  border-light m-auto"></div>
+    <div class="container mt-5">
+        <div class="row">
+          <ng-container *ngFor="let val of list">
+            <div class="col-3  ms-5 mt-2">
+              <div class="card">
+                <img src="{{val.Poster}}" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-light ">{{val.Title}}</h5>
+                </div>
+              </div>
+            </div>
+          </ng-container>
+          
+        </div>
+      </div>
+</div>
